@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*estilo para el primer párrafo*/
+        .preformateado{
+            font-family:'Courier New', Courier, monospace /*fuente parecida*/
+            line-height:1.2; /*reduce interlineado/
+            white-space: pre; /*conserva espacios y saltos de linea*/
+        }
+    </style>
+</head>
+<body>
+    
+    <p class="preformateado">
+        Este es un<br>
+        ejemplo de&nbsp;&nbsp;&nbsp;&nbsp;texto<br>
+        preformateado.<br>
+        La marca <b>pre</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;preserva&nbsp;&nbsp;&nbsp;&nbsp;espacios&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;en&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blanco<br>
+        y saltos de línea
+    </p>
+
+    <p>La marca <b>pre</b> también es buena para mostrar código de programación:</p>
+
+    <pre>
+for i = 1 to 10
+    print i
+next i
+    </pre>
+
+    <p>También se puede utilizar la marca <b>code</b></p>
+
+    <code>
+for i = 1 to 10 print i next i
+    </code>
+
+    <p>pero <b>code</b> no respeta espaciado ni saltos de línea</p>
+</body>
+</html>
